@@ -1,0 +1,88 @@
+/* ////////////////////////////////////////
+OWNER
+//////////////////////////////////////// */
+.box{
+margin-bottom: 50px;
+padding-bottom: 50px;
+width: 95%;
+margin: 0 auto;
+}
+
+.secondowner{
+	padding-top: 200px;
+}
+.ownersttl{
+padding-top:40px;
+padding-bottom:100px;
+}
+
+.ownersttl h3,
+.ownersttl p{
+text-align:center;
+}
+.ownersttl h3{
+font-size:40px;
+color: #3d3d3d;
+margin-bottom:35px;
+}
+.ownersttl p{
+font-size:18px;
+}
+.firstlist li{
+width:350px;
+float:left;
+padding-right:40px;
+}
+
+.tuyomi{
+background-color:#F7F7F7;
+padding:60px;
+}
+.device-mobile .tuyomi{
+background-color:#F7F7F7;
+padding:60px 0;
+}
+
+.tbox h4{
+padding-bottom:50px;
+font-size:30px;
+}
+.device-mobile .tbox h4{
+width:90%;
+margin:0 auto;
+padding-bottom:40px;
+}
+
+.device-mobile .merit{
+width:90%;
+margin:0 auto;
+}
+
+.merit li{
+width:30%;
+float:left;
+margin-right:5%;
+}
+
+.merit li:last-child{
+margin-right:0%;
+}
+
+.device-mobile .merit li{
+width:auto;
+margin:0 auto;
+padding-bottom:30px;
+float:none;
+margin-right:0;
+}
+
+.device-mobile .merit li:last-child{
+padding-bottom:0px;
+}
+
+.merit li h5{
+margin-bottom:10px;
+font-size:20px;
+color: #3d3d3d;
+}
+

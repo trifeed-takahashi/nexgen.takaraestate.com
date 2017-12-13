@@ -1,0 +1,219 @@
+
+.search{
+	height: 100%;
+}
+.search_box{
+	float: left;
+	width: 65%;
+	height: 100%;
+}
+	.device-mobile .search_box{
+	float: none;
+	width: 100% !important;
+	height: auto !important;
+	}
+.search_map{
+	float: right;
+	width: 35%;
+	height: 100%;
+}
+	.device-mobile .search_map{
+	float: none;
+	width: 100% !important;
+	height: 300px !important;
+	}
+.search_map iframe{
+	width: 100%;
+}
+	.device-mobile .search_map iframe{
+	height: 100% !important;
+	}
+
+
+
+/* ////////////////////////////////////////
+フィルターバー
+//////////////////////////////////////// */
+.filter_box{
+position: relative;
+height: 70px;
+}
+	.device-mobile .filter_box{
+	position: relative;
+	height: 45px;
+	}
+.filter_box .filter_box_filter{
+position: absolute;
+left: 20px;
+top: 27px;
+}
+	.device-mobile .filter_box_filter{
+	left: 10px;
+	top: 10px;
+	}
+.filter_box .filter_box_filter ul li{
+float: left;
+margin-right: 40px;
+}
+	.device-mobile .filter_box .filter_box_filter ul li{
+	margin-right: 10px;
+	}
+.filter_box .filter_box_filter ul li a{
+text-decoration: none;
+background-image: url("/chintai/common/img/arrow_bottom_blue.png");
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: 5px;
+padding-right: 20px;
+color: #4f85ab;
+font-size: 17px;
+}
+	.device-mobile .filter_box .filter_box_filter ul li a{
+	font-size: 12px;
+	background-size: 10px;
+	padding-right: 14px;
+	background-position-y: 4px;
+	}
+.filter_box .filter_box_filter_reset{
+position: absolute;
+right: 20px;
+top: 27px;
+}
+	.device-mobile .filter_box .filter_box_filter_reset{
+	top: 10px;
+	}
+	
+.filter_box .filter_box_filter_reset a{
+text-decoration: none;
+color: #aaaaaa;
+font-size: 17px;
+}
+	.device-mobile .filter_box .filter_box_filter_reset a{
+	font-size: 12px;
+	}
+
+/* ////////////////////////////////////////
+リスト表示部分
+//////////////////////////////////////// */
+.list_box{
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+	.device-mobile .list_box{
+	overflow-y:visible !important;
+	}
+
+	
+.list_item{
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+}
+.list_item a{
+	text-decoration: none;
+}
+
+
+.list_item .photo{
+	
+}
+.list_item .photo img{
+	width: 100%;
+}
+
+.list_item .price{
+	color: #a9a9a9;
+}
+
+.list_item .price b{
+	color: #000000 !important;
+	font-size: 17px;
+}
+
+.list_item .star{
+	color: #4C86AB;
+}
+
+
+
+
+
+
+/* ////////////////////////////////////////
+ナビ文字
+//////////////////////////////////////// */
+
+.list_navi_box{
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.list_navi_box ul.navi{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+.list_navi_box ul.navi li{
+	float: left;
+	margin-right: 20px;
+}
+	.device-mobile .list_navi_box ul.navi li img{
+	height: 10px;
+	}
+.list_navi_box ul.navi li.last{
+	margin-right: 0;
+}
+
+.list_navi_box .navi li a{
+	text-decoration: none;
+	color: #4C86AB;
+	border: 1px solid #4C86AB;
+	border-radius: 30px;
+	width: 30px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+}
+.list_navi_box ul.navi li.last a,
+.list_navi_box ul.navi li.first a{
+	height: 23px;
+	padding-top: 7px;
+}
+	.device-mobile .list_navi_box ul.navi li.last a,
+	.device-mobile .list_navi_box ul.navi li.first a{
+	padding-top: 5px;
+	height: 25px;
+	}
+.list_navi_box .navi li.active a{
+	background-color: #4C86AB;
+	color: #ffffff;
+}
+
+
+.list_navi_box .navi_text{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

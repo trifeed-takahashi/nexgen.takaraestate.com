@@ -1,0 +1,437 @@
+/* ////////////////////////////////////////
+
+新規登録
+
+//////////////////////////////////////// */
+
+.photo_box{
+	background-color: #ebebeb;
+	height: auto;
+	padding-bottom: 110px;
+}
+	.device-mobile .photo_box {
+	  margin-bottom:10px;
+	}
+.drag-drop-area{
+	padding: 20px;
+}
+.drag-drop-inside{
+	border: 4px dotted #c7c7c7;
+	border-radius: 8px;
+	text-align: center;
+	padding: 50px;
+	height: 270px;
+}
+.drag-drop-info{
+	font-size: 40px;
+	padding-top: 100px;
+}
+
+.photo_box .youtube {
+	width: 65%;
+	left:20px;
+	bottom:20px;
+}
+	.device-mobile .photo_box .youtube {
+		bottom:20px;
+		width:96%;
+	}
+.drag-drop-area input{
+display: none;
+}
+
+
+.detail_title .drag-drop-inside{
+	height: 270px;
+}
+
+.detail_title_text{
+	float: none;
+}
+
+
+.upload_files{
+	border-bottom: 1px solid #cbcbcb;
+	background-image: url("/chintai/common/img/menu_gray.png");
+	background-repeat: no-repeat;
+	background-position-y: 20px;
+	background-position-x: 98%;
+	background-size: 16px;
+}
+
+.upload_files .upload_image,
+.upload_files .upload_name,
+.upload_files .upload_title{
+	float: left;
+	height: 50px;
+	font-size: 12px;
+	padding-left: 10px;
+}
+	.device-mobile .upload_files .upload_name,
+	.device-mobile .upload_files .upload_title{
+	font-size: 10px;
+	}
+
+
+.upload_files .upload_title{
+width: 6%;
+min-width: 70px;
+text-align: center;
+	line-height: 50px;
+}
+.upload_files .upload_image{
+width: 20%;
+	max-width: 70px;
+	text-align: center;
+	padding-left: 0px;
+}
+.upload_files .upload_name{
+	height: 45px;
+	padding-top: 5px;
+	width: 60%;
+	min-width: 100px;
+	overflow: hidden;
+}
+	.device-mobile .upload_files .upload_name{
+	width: 55%;
+	}
+.upload_files .upload_name input{
+width: 150px;
+margin-right: 10px;
+}
+.upload_files .upload_name p{
+	font-size: 12px;
+}
+	.device-mobile .upload_files .upload_name p{
+		font-size: 10px;
+	}
+.upload_files .upload_name .delete_upload{
+	text-decoration: none;
+	color: #ef2929;
+	display: inline;
+}
+
+
+
+.upload_files .upload_image,
+.upload_files .upload_image img{
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input,
+textarea{
+	border: 1px solid #dedede;
+	padding: 6px 1%;
+	width: 97%;
+	border-radius: 2px;
+}
+input,
+select{
+	margin-bottom: 10px;
+	font-family: "Quicksand";
+}
+select{
+	margin-right: 15px;
+	padding: 10px;
+}
+::-webkit-input-placeholder{
+    color: #dfdfdf;
+    font-weight: normal;
+}
+:-ms-input-placeholder {
+    color: #dfdfdf;
+    font-weight: normal;
+}
+::-moz-placeholder {
+    color: #dfdfdf;
+    font-weight: normal;
+}
+
+
+.detail_title_ttl input{
+	font-size: 30px;
+}
+
+
+
+.detail_title_box div{
+	width: 48%;
+	padding-right: 2%;
+	float: left;
+}
+.detail_title_box div.memoarea{
+	float: none;
+	width: 100%;
+	padding-right: 0%;
+}
+.detail_title_box div.memoarea textarea{
+	height: 110px;
+}
+.section_info_dl textarea{
+	height: 250px;
+}
+.detail_title_box div input{
+padding: 4px 10px !important;
+}
+
+
+
+
+
+.section_info_dl dt select{
+	margin-right: 1px;
+}
+.section_info_dl dd{
+	font-size: 12px;
+	color: #6c6c6c;
+}
+	.device-mobile .section_info_dl dt,
+	.device-mobile .section_info_dl dd {
+	padding-bottom:40px;
+	}
+.section_info_dl dd label{
+	padding-right: 15px;
+	font-size: 12px;
+}
+	.device-mobile .section_info_dl dd label{
+	display: block;
+	}
+	.device-mobile .section_info_dl dd label.mini{
+	display: inline;
+	}
+.section_info_dl input{
+	width: 120px;
+	text-align: center;
+	padding: 3px 1%;
+}
+	.device-mobile .section_info_dl input{
+	width: 70%;
+	}
+.section_info_dl dd.mini input,
+.section_info_dl dd label.mini input{
+width: 40px;
+}
+.section_info_dl .biko input{
+width: 90%;
+text-align: left;
+}
+.detail_title .detail_title_text {
+  float:none;
+  padding-left:0%;
+  width:100%;
+}
+
+.section_info_dl dt, .section_info_dl dd {
+  font-size:15px;
+  padding-bottom:30px;
+}
+
+
+
+#room_info .section_info_dl dt {
+  width:30%;
+}
+#room_info .section_info_dl dd {
+  width:70%;
+}
+
+
+#setsubi_info .section_info_ul_box {
+  background-image:none;
+  height:auto;
+  overflow:visible;
+}
+
+
+.section_info_ul li{
+	margin-bottom: 10px;
+}
+.section_info_ul .checkitem{
+  display: none;
+}
+.section_info_ul .checkitem_parts{
+color: #4c86ab;
+text-decoration: none;
+font-size: 13px;
+padding: 7px 10px;
+border-radius: 3px;
+background-color: #ffffff;
+  cursor: pointer;
+   border: 1px solid #4c86ab;
+  font-family: "Quicksand";
+}
+.section_info_ul .checkitem:checked + .checkitem_parts{
+  color: #ffffff;
+  border: 1px solid #4c86ab;
+  background-color: #4c86ab;
+}
+
+.section_info_ul .setsubi .checkitem_parts{
+  font-size: 13px;
+}
+
+
+
+.info_box dt{
+	width: 20%;
+	font-size: 12px;
+}
+.info_box dd{
+	width: 80%;
+	font-size: 12px;
+}
+
+.koukai_year,
+.koukai_month,
+.koukai_day,
+.koukai_hour,
+.koukai_min{
+	width: 35px !important;
+	padding: 2px;
+}
+.koukai_month,
+.koukai_day,
+.koukai_hour,
+.koukai_min{
+	width: 25px !important;
+}
+
+.info_box .section_info_dl{
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.info_box .section_info_dl dt,
+.info_box .section_info_dl dd {
+  padding-bottom:20px;
+}
+
+
+.info_box_ttl{
+	margin-bottom: 30px;
+}
+.koukaisubmit{
+	background-color: #4c86ab;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	padding: 12px 0;
+	margin-bottom: 30px;
+	-webkit-appearance: none;
+}
+
+.controll{
+	padding: 12px 20px;
+	background-color: #f9f9f9;
+}
+.controll p{
+	float: left;
+	padding-right: 20px;
+}
+.controll p a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #4c86ab;
+}
+.controll p.trash{
+	float: right;
+	padding-right: 0;
+}
+.controll p.trash a{
+	color: #ea3030;
+}
+
+
+
+
+
+.info_box .section_info_ul li{
+	float: none !important;
+	display: block;
+	padding-right: 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+.info_box .section_info_dl dd label {
+  padding-right:0;
+}
+.info_box .section_info_ul .checkitem_parts{
+	font-size: 11px;
+	cursor: pointer;
+}
+
+
+
+.info_box .section_info_ul .checkitem_parts{
+color: #4c86ab;
+text-decoration: none;
+font-size: 11px;
+	padding: 5px 5px;
+border-radius: 3px;
+background-color: #ffffff;
+  cursor: pointer;
+   border: 1px solid #4c86ab;
+  font-family: "Quicksand";
+	display: block;
+	width: auto;
+	text-align: center;
+}
+	.device-mobile .info_box .section_info_ul .checkitem_parts{
+	font-size: 11px;
+	}
+.info_box .section_info_ul .checkitem:checked + .checkitem_parts{
+  color: #ffffff;
+  border: 1px solid #4c86ab;
+  background-color: #4c86ab;
+}
+
+
+
+
+
+
+
+.info_box .section_info_ul .koukai1 .checkitem_parts {
+	  border-right: 1px solid #4c86ab;
+	  border-radius:3px 3px 0px 0px;
+	  border-bottom: none;
+}
+.info_box .section_info_ul .koukai2 .checkitem_parts {
+		border-right: 1px solid #4c86ab;
+	  border-bottom: none;
+  border-radius:0px;
+}
+.info_box .section_info_ul .koukai3 .checkitem_parts {
+  border-left: 1px solid #4c86ab;
+  border-radius:0px 0px 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

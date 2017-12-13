@@ -1,0 +1,406 @@
+/* ////////////////////////////////////////
+
+物件一覧
+
+//////////////////////////////////////// */
+
+.search {
+  width:calc(100% - 500px);
+}
+
+.pulldown{
+	margin-top: 3px;
+}
+
+.view_colum{
+	width: 15%;
+}
+.colum_sousa{
+	width: 6%;
+}
+.colum_date,
+.colum_jiki{
+	width: 7%;
+}
+.colum_tanto,
+.colum_user{
+	width: 8%;
+}
+
+
+
+.view_colum a{
+	color:#4C86AB;
+	text-decoration: none;
+}
+.yomi{
+	font-size: 9px;
+	color: #cbcbcb;
+	cursor:inherit !important;
+}
+
+
+
+
+.backpage{
+	padding-left: 30px;
+	padding-top: 50px;
+}
+.backpage a{
+	text-decoration: none;
+	color: #4C86AB;
+	padding-left: 24px;
+	background-image: url("/chintai/common/img/arrow_bottom_blue_left.png");
+	background-repeat: no-repeat;
+	background-position-y: 1px;
+}
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////
+
+受付
+
+//////////////////////////////////////// */
+::-webkit-input-placeholder{
+    color: #dfdfdf;
+    font-weight: normal;
+}
+:-ms-input-placeholder {
+    color: #dfdfdf;
+    font-weight: normal;
+}
+::-moz-placeholder {
+    color: #dfdfdf;
+    font-weight: normal;
+}
+.reception input,
+.reception textarea{
+	border: 1px solid #eaeaea;
+	padding: 7px;
+	border-radius: 3px;
+	width: 90%;
+}
+
+.reception h1{
+	text-align: center;
+	font-size: 45px;
+	font-weight: normal;
+	color: #454545;
+	margin-top: 100px;
+}
+.desc{
+	margin-top: 40px;
+}
+.desc p{
+	text-align: center;
+}
+
+.uestion_container_all{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-top: 1px solid #eaeaea;
+	width: 95%;
+}
+.modify .uestion_container_all{
+	margin-top: 40px;
+}
+.uestion_container{
+	border-bottom: 1px solid #eaeaea;
+	display: table;
+	width: 100%;
+	line-height: 0px;
+	margin-top: -6px;
+}
+.date_container{
+	margin-top: 0px;
+}
+.uestion_title,
+.uestion_contents{
+	display: table-cell;
+}
+.uestion_title{
+	width: 21%;
+	padding: 20px 2%;
+	float: left;
+	font-size: 18px;
+	color: #575757;
+	vertical-align: middle;
+}
+.uestion_contents{
+	width: 70%;
+	padding: 20px 2%;
+	float: left;
+	vertical-align: middle;
+	border-left: 1px solid #eaeaea;
+}
+.uestion_contents .section_info_ul li{
+	float: left;
+	width: auto;
+	margin-right: 10px;
+}
+.uestion_contents_line2{
+	margin-top: 20px;
+}
+
+.reception .section_info_ul .checkitem_parts {
+  padding:6px 8px;
+  font-size: 12px;
+}
+.uestion_contents p{
+	margin-bottom: 5px;
+}
+.reception .mini{
+	width: 40px;
+	text-align: center;
+	margin: 0 4px;
+}
+.reception .middle{
+	width: 100px;
+}
+.madori_container li{
+	margin-bottom: 10px;
+}
+.f_request{
+	height: 300px;
+}
+
+.reception_submit_button{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.reception_submit_button input{
+	background-color: #4C86AB;
+	color: #ffffff;
+	padding: 19px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.reception .biko{
+	font-size: 12px;
+	color: #949494;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+.errormassage{
+	color: #d84141;
+	margin-top: 7px;
+}
+
+
+.notification{
+	border-radius: 3px;
+	padding: 10px;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+.red{
+	border: 1px solid #ea2424;
+	color: #ea2424;
+}
+.green{
+	border: 1px solid #1fc384;
+	color: #1fc384;
+}
+.required_item{
+	color: #ea2424;
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+
+.checkitem_li a {
+  border:1px solid #4C86AB;
+  border-radius:3px;
+  color:#4C86AB;
+  cursor:pointer;
+  font-family:Quicksand;
+  font-size:13px;
+  padding:7px 10px;
+  text-decoration:none;
+}
+.checkitem_li a.active {
+	background-color:#4C86AB;
+  border-color:#4C86AB;
+  color:#FFFFFF;
+}
+
+.checkitem_f a{
+	border-radius:3px 0 0 3px;
+}
+.checkitem_m a{
+	border-radius:0;
+	border-right: none;
+	border-left: none;
+}
+.checkitem_l a{
+	border-radius:0px 3px 3px 0px;
+}
+
+.colum_sousa .controll_panel li.trash_back a {
+  color:#EC3434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************************
+ログイン
+******************************* */
+.login{
+position: relative;
+}
+
+.login .loglogo{
+font-size: 20px;
+margin-bottom: 30px;
+color: #ffffff;
+}
+
+.login label{
+color: #ffffff;
+}
+
+.login #loginbox{
+width: 320px;
+padding: 40px;
+padding-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+background-color: #3495cd;
+position: absolute;
+top:50%;
+left: 50%;
+margin-left: -200px;
+margin-top: -200px;
+font-size: 10px;
+text-align: center;
+}
+.login #loginbox input{
+padding: 10px;
+width: 300px;
+border: none;
+border-radius: 3px;
+margin-bottom: 20px;
+text-align: center;
+}
+.login #loginbox input.submitbutton{
+background-color: #0c4c74;
+color: #ffffff;
+font-weight: bold;
+cursor: pointer;
+}
+
+.login #loginbox .loginshubetu{
+padding-bottom: 20px;
+padding-left: 5px;
+}
+
+.login #loginbox .loginshubetu li{
+float: left;
+margin-right: 5px;
+}
+
+.login #loginbox .loginshubetu label{
+display: block;
+width: 70px;
+height: 70px;
+border: 1px dotted #ffffff;
+border-radius: 6px;
+}
+.login #loginbox .loginshubetu label input{
+display: block;
+width: auto;
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 10px;
+padding-top: 100px;
+}
+
+.login #loginbox .kekka{
+border: 1px solid #ffffff;
+border-radius: 3px;
+color: #ffffff;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

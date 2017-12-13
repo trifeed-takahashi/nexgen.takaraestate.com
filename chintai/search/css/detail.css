@@ -1,0 +1,736 @@
+/******************************
+コモン
+******************************/
+body.overflow_slide{
+	overflow: hidden;
+}
+
+.section{
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 55px;
+}
+.allwidth_section{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.section_title{
+	margin-bottom: 40px;
+}
+.section_title h2{
+	font-size: 30px;
+	color: #444444;
+	line-height: 100%;
+}
+.section_half{
+	width: 48%;
+}
+.section_half_l{
+float: left;
+padding-right: 4%;
+}
+.section_half_r{
+float: right;
+}
+
+.section_info_dl,
+.section_info_ul{
+	display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+.section_info_dl dt,
+.section_info_dl dd{
+	font-size: 18px;
+	color: #444444;
+	padding-bottom: 12px;
+	display: table-cell !important;
+}
+	.device-mobile .section_info_dl dt,
+	.device-mobile .section_info_dl dd{
+	font-size: 13px;
+	padding-bottom: 6px;
+	}
+.section_info_dl dt{
+	width: 50%;
+	float: left;
+	font-family: "Hiragino Kaku Gothic ProN W6";
+}
+.section_info_dl dd{
+	width: 50%;
+	float: right;
+	font-family: "Hiragino Kaku Gothic ProN W3";
+}
+
+
+
+/******************************
+メイン画像
+******************************/
+
+.photo_box{
+	height: 500px;
+	min-height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+	.device-mobile .photo_box{
+	overflow: visible;
+	margin-bottom: 100px;
+	}
+.photo_box .photo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.photo_box .photo{
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo_box .allphoto_view_button{
+	position: absolute;
+	background-color: #ffffff;
+	border-radius: 3px;
+	color: #444444;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -10%;
+	font-size: 20px;
+}
+	.device-mobile .photo_box .allphoto_view_button{
+	width: 50%;
+	left: 25%;
+	bottom: 70px;
+	margin-left: -10px;
+	font-size: 14px;
+	}
+.photo_box .youtube{      
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+	.device-mobile .photo_box .youtube{      
+	position: absolute;
+	left: 2%;
+	width: 96%;
+	bottom: -130px;
+	}
+	.device-mobile .photo_box .youtube iframe{
+	width: 100%;
+	}
+
+
+
+/******************************
+スライドショー
+******************************/
+.all_Photo{
+display: none;
+}
+.overflow_slide .all_Photo{
+ display: block;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: 3000;
+}
+.overflow_slide .all_Photo .all_Photo_bg{
+	background-color: rgba(0,0,0,0.7);
+ width: 100%;
+ height: 100%;
+ cursor: pointer;
+}
+.overflow_slide .all_Photo .all_Photo_bg img{
+display: block;
+ position: fixed;
+ top: 10px;
+ right: 10px;
+}
+	.device-mobile .overflow_slide .all_Photo .all_Photo_bg img{
+	width: 20px;
+	top: 7px;
+	}
+.overflow_slide .all_Photos{
+	width: 96%;
+	height: 93%;
+	 position: fixed;
+	 left: 2%;
+	 top: 6%;
+	 overflow: visible;
+}
+
+
+.overflow_slide .all_Photos div.portrait img{
+height: 100%;
+width: auto;
+}
+.overflow_slide .all_Photos div.horizontal img{
+height: auto;
+width: 100%;
+
+}
+.overflow_slide .all_Photos div{
+	padding-right: 25px;
+	padding-left: 25px;
+	text-align: center;
+	 overflow: visible;
+	 height: 100%;
+}
+.overflow_slide .all_Photos div img{
+	box-shadow:0px 0px 10px 10px rgba(0,0,0,0.3);
+-moz-box-shadow:0px 0px 10px 10px rgba(0,0,0,0.3);
+-webkit-box-shadow:0px 0px 10px 10px rgba(0,0,0,0.3);
+}
+.overflow_slide .slick-prev,
+.overflow_slide  .slick-next {
+top:50%;
+}
+.overflow_slide .slick-prev {
+left:-6px;
+}
+.overflow_slide .slick-next {
+right:-6px;
+}
+
+.overflow_slide .dot-class{
+	position: fixed;
+	left: 10px;
+	top: 20px;
+}
+	.device-mobile .overflow_slide .dot-class{
+		top: 12px;
+	}
+.overflow_slide .dot-class li{
+	float: left;
+	margin-right: 5px;
+}
+.overflow_slide .dot-class li button{
+	border-radius: 20px;
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+	outline:none;
+	line-height:0;
+	display:block;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+	font-size: 0;
+	background-color: rgba(255,255,255,0);
+}
+.overflow_slide .dot-class li.slick-active button{
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+/******************************
+問合せ
+******************************/
+.detail_info_box{
+	position: relative;
+}
+	.device-mobile .detail_info_box{
+		position:inherit;
+	}
+.detail_info_box .info_box{
+	position: absolute;
+	top:-80px;
+	right: 2%;
+	width: 28%;
+	background-color: #ffffff;
+	border: 1px solid #e2e2e2;
+	z-index: 500;
+}
+	.device-mobile .detail_info_box .info_box{
+		position: fixed;
+		top: 1000px;
+		width: 96%;
+		left: 2%;
+		z-index: 2000;
+	}
+	.device-mobile body.overflow .detail_info_box .info_box{
+		position: fixed;
+		top: 0 !important;
+		width: 100%;
+		left: 0%;
+		z-index: 2000;
+		height: 100%;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+.detail_info_box .info_box .info_box_ttl{
+	background-color: #f55151;
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	padding: 14px;
+}
+	.device-mobile .detail_info_box .info_box .info_box_ttl{
+	cursor: pointer;
+	}
+.detail_info_box .info_box .info_box_inner{
+	padding: 15px;
+}
+.detail_info_box .info_box .add_info{
+	text-align: center;
+	padding: 20px 0;
+	color: #4C86AB;
+}
+.detail_info_box .info_box .add_info span{
+	text-decoration: none;
+	color: #4C86AB;
+	border: 1px solid #4C86AB;
+	border-radius: 30px;
+	width: 30px;
+	height: 27px;
+	display :inline-block;
+	text-align: center;
+	padding-top: 3px;
+}
+.detail_info_box .info_box .info_forms{
+	padding-top: 10px;
+}
+.detail_info_box .info_box .info_forms .info_form_item{
+	margin-bottom: 20px;
+}
+.detail_info_box .info_box .info_forms .info_form_item label{
+	display: block;
+}
+.detail_info_box .info_box .info_forms .info_form_item input,
+.detail_info_box .info_box .info_forms .info_form_item textarea{
+padding: 4px 10px;
+border-radius: 2px;
+border: 1px solid #dbdbdb;
+width: 90%;
+}
+.detail_info_box .info_box .info_forms .info_form_item textarea{
+height: 200px;
+}
+.detail_info_box .info_box .info_forms .info_form_item .submit_button{
+	background-color: #75c83d;
+	width: 100%;
+	border: none;
+	padding: 10px;
+	color: #ffffff;
+	border-bottom: 5px solid #2d9b47;
+}
+
+.detail_info_box .info_box .info_tel,
+.detail_info_box .info_box .info_line{
+	border-top: 1px solid #e2e2e2;
+	padding-top: 25px;
+}
+
+.detail_info_box .info_box .linebutton{
+	margin: 20px auto;
+	width: 70%;
+	max-width: 140px;
+}
+.detail_info_box .info_box .linebutton img{
+	width: 100%;
+}
+.detail_info_box .info_box .telnumber{
+	font-size: 26px;
+	color: #626262;
+	margin: 7px 0;
+}
+.detail_info_box .info_box .telnumber img{
+margin-right: 5px;
+}
+.detail_info_box .info_box .telinfo{
+	color: #979595;
+	font-size: 12px;
+}
+
+.detail_info_box .info_box .tel_hint{
+margin-bottom: 10px;
+	font-size: 12px;
+}
+
+
+
+
+/******************************
+詳細
+******************************/
+.detail_info_box .detail_box{
+	width: 66%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+	.device-mobile .detail_info_box .detail_box{
+	width: 92%;
+	margin-right: 4%;
+	margin-left: 4%;
+	}
+
+
+/******************************
+タイトル
+******************************/
+
+.detail_title{
+	padding: 40px 0;
+}
+.detail_title .detail_title_gaikan{
+	float: left;
+	width: 20%;
+}
+	.device-mobile .detail_title .detail_title_gaikan{
+	float:inherit;
+	margin: 0 auto;
+	width: 140px;
+	margin-bottom: 30px;
+	}
+.detail_title .detail_title_gaikan .photo{
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 70px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.detail_title .detail_title_gaikan img{
+	margin-left:-35px;
+	width: 200px;
+}
+
+.detail_title .detail_title_text{
+	float: left;
+	width: 77%;
+	padding-left: 3%;
+}
+	.device-mobile .detail_title .detail_title_text{
+	float:inherit;
+	width: 100%;
+	padding-left: 0;
+	}
+.detail_title .detail_title_text .detail_title_ttl{
+font-size: 34px;
+color: #444444;
+line-height: 140%;
+margin-bottom: 10px;
+}
+	.device-mobile .detail_title .detail_title_text .detail_title_ttl{
+	font-size: 24px;
+	}
+
+.detail_title .detail_title_text .detail_title_star a{
+	float: left;
+	color: #4C86AB;
+	font-size: 17px;
+	margin-right: 30px;
+	margin-top: -2px;
+}
+.detail_title .detail_title_text .detail_title_tag .tag{
+	margin-left: 0;
+	margin-right: 20px;
+	padding: 5px 8px;
+}
+.detail_title .detail_title_text .detail_title_view{
+	font-size: 17px;
+	color: #a5a5a5;
+	margin-top: 10px;
+}
+	.device-mobile .detail_title .detail_title_text .detail_title_view{
+	font-size: 14px;
+	}
+
+
+
+/******************************
+部屋
+******************************/
+#room_info .section_half_l{
+width: 60%;
+padding-right: 0;
+}
+	.device-mobile #room_info .section_half_l{
+	float: inherit;
+	width: 100%;
+	}
+#room_info .section_half_r{
+width: 40%;
+}
+	.device-mobile #room_info .section_half_r{
+	float: inherit;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	}
+#room_info .madori_image img{
+	width: 100%;
+}
+#room_info .madori_biko{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+dd.nyukyo span{
+	display: block;
+	width: 90%;
+	padding: 8px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 120%;
+}
+	.device-mobile dd.nyukyo span{
+		font-size: 12px;
+	}
+dd.nyukyo span.nyukyochu{
+	border: 1px solid #f05050;
+	color: #f05050;
+}
+
+
+
+
+/******************************
+建物概要
+******************************/
+#bill_info .section_info_dl dt{
+	width: 30%;
+}
+#bill_info .section_info_dl dd{
+	width: 70%;
+}
+
+
+.link_map{
+	padding-left: 20px;
+	background-image: url("/chintai/common/img/map-marker-pin.png");
+	background-repeat: no-repeat;
+	font-size: 15px;
+	color: #4c86ab !important;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+	.device-mobile .link_map{
+	font-size: 13px;
+	padding-left: 18px;
+	}
+
+
+
+
+
+
+
+/******************************
+設備概要
+******************************/
+
+
+#setsubi_info .section_title h2{
+	float: left;
+}
+#setsubi_info .section_title .biko{
+	float: right;
+	font-size: 10px;
+	padding-top: 7px;
+}
+
+
+#setsubi_info .section_info_ul_box{
+	height: 150px;
+	overflow: hidden;
+	background-image: url("../img/sadow.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#setsubi_info .box_open{
+	height: auto !important;
+	overflow: visible;
+	background-image: none;
+}
+#setsubi_info .section_info_ul{
+	padding-bottom: 50px;
+}
+#setsubi_info .section_info_ul li{
+	width: 25%;
+	float: left;
+	padding-bottom: 6px;
+	font-size: 16px;
+}
+	.device-mobile #setsubi_info .section_info_ul li{
+	font-size: 13px;
+	width: 50%;
+	}
+#setsubi_info ul li.none{
+	text-decoration: line-through;
+	color: #d9d9d9;
+}
+#setsubi_info h3{
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+#setsubi_info .section_info_ul_box_closer{
+	padding-top: 19px;
+	text-align: center;
+}
+#setsubi_info .section_info_ul_box_closer a{
+	padding-right: 20px;
+	background-image: url("/chintai/common/img/arrow_bottom_blue.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	font-size: 18px;
+	color: #4c86ab !important;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/******************************
+料金
+******************************/
+
+#price_info .section_half h3{
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+#price_info .section_half .total{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+	font-size: 21px;
+}
+	.device-mobile #price_info .section_half{
+		padding-right: 0;
+	}
+	.device-mobile .section_half_l,
+	.device-mobile .section_half_r{
+		float: inherit;
+		width: 100%;
+	}
+	.device-mobile .section_half_l{
+		margin-bottom: 40px;
+	}
+#price_info .price_other{
+	padding-top: 20px;
+}
+#price_info .price_other dt{
+	color: #9f9f9f;
+}
+#price_info .biko{
+	float: none;
+	width: 100%;
+	font-size: 12px;
+	color: #a8a8a8;
+	font-family: "Hiragino Kaku Gothic ProN W3";
+}
+
+#price_info .freerent{
+	color: #f95555;
+}
+#price_info dd{
+	font-family: "Quicksand";
+}
+
+
+
+
+
+
+
+
+/******************************
+採点
+******************************/
+
+#saiten_info h3{
+	font-size: 30px;
+	color: #4c86ab;
+	padding-bottom: 20px;
+}
+	.device-mobile #saiten_info h3{
+	font-size: 25px;
+	}
+#saiten_info .saiten_list .saiten_list_item{
+	width: 50%;
+	float: left;
+	padding-bottom: 10px;
+}
+#saiten_info .saiten_list .saiten_list_item .sttl{
+float: left;
+width: 35%;
+font-size: 20px;
+}
+	.device-mobile #saiten_info .saiten_list .saiten_list_item .sttl{
+	font-size: 15px;
+	}
+#saiten_info .saiten_list .saiten_list_item .star{
+float: left;
+width: 60%;
+color: #4c86ab;
+	font-size: 20px;
+}
+	.device-mobile #saiten_info .saiten_list .saiten_list_item .star{
+	font-size: 15px;
+	}
+
+
+
+
+
+
+
+
+/******************************
+エリア
+******************************/
+#map_info .erea_maps iframe{
+	width: 100%;
+	height: 600px;
+}
+
+	.device-mobile #map_info .erea_maps iframe{
+		height: 400px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

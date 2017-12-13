@@ -1,0 +1,282 @@
+
+
+
+
+.topimage_container{
+	margin-bottom: 80px;
+}
+	.device-mobile .topimage_container{
+		margin-bottom: 30px;
+	}
+.topimage_container a{
+	text-decoration: none;
+}
+.topimage_container .topimage_item{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 400px !important;
+  max-height: 900px !important;
+}
+	.device-mobile .topimage_container .topimage_item{
+	  min-height: 200px !important;
+	  max-height: 500px !important;
+	}
+.topimage_container .topimage_item a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.topimage_container .item1 a .inner{
+	width: 90%;
+	max-width: 989px;
+	margin: 0 auto;
+	background-image: url("/chintai/img/images/renovation_txt.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 200px;
+	padding-top: 180px;
+}
+	.device-mobile .topimage_container .item1 a .inner{
+	background-image: url("/chintai/img/images/renovation_txt_m.png");
+	width: 80%;
+	padding-top: 200px;
+	margin-top: 25%;
+	}
+.topimage_container .item1 a .inner p{
+color: #ffffff;
+margin: 0 20%;
+padding: 20px;
+border: 1px solid #ffffff;
+border-radius: 3px;
+text-align: center;
+margin-top: 200px;
+font-size: 20px;
+}
+	.device-mobile .topimage_container .item1 a .inner p{
+		margin-top: 0;
+		font-size: 13px;
+		padding: 10px;
+		margin: 0 10%;
+	}
+.topimage_container .topimage_item a:hover p{
+	background-color: #ffffff;
+	color: #2d2d2d;
+}
+
+
+.section{
+	margin-bottom: 100px;
+}
+	.device-mobile .section{
+		margin-bottom: 60px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////
+Ç®ïîâÆì¡èW
+//////////////////////////////////////// */
+.recomend .section_container .section_item{
+	width: 319px;
+}
+	.device-mobile .recomend .section_container .section_item{
+		width: 250px;
+	}
+.recomend .section_container .section_item .photo{
+width: 319px;
+height: 270px;
+}
+	.device-mobile .recomend .section_container .section_item .photo{
+	width: 250px;
+	height: 205px;
+	}
+.recomend .section_container .section_item .photo .sttl{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	color: #797979;
+	font-weight: bold;
+	z-index: 500;
+	padding: 6px 11px;
+	font-size: 15px;
+}
+.recomend .section_container .section_item .photo .photo1{
+position: inherit;
+left: 0;
+width: 319px;
+height: auto;
+overflow: auto;
+border-radius: inherit;
+}
+	.device-mobile .recomend .section_container .section_item .photo .photo1{
+	width: 250px;
+	}
+.recomend .section_container .section_item .photo .photo1 img{
+	margin-left:0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////
+Ç®ïîâÆì¡èW
+//////////////////////////////////////// */
+.access_item_container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.access_item_container .rank1,
+.access_item_container .rank23{
+	width: 48%;
+}
+.access_item_container .rank1{
+	float: left;
+}
+	.device-mobile .access_item_container .rank1{
+		padding-bottom: 30px;
+	}
+.access_item_container .rank23{
+	float: right;
+}
+
+	.device-mobile .access_item_container .rank1,
+	.device-mobile .access_item_container .rank23{
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+	}
+	.device-mobile .access_item_container .rank23 p{
+	font-size: 12px;
+	}
+
+
+.access_item_container .photo{
+	width: 100%;
+}
+
+.access_item_container img{
+	width: 100%;
+}
+.access_item_container .rank2,
+.access_item_container .rank3{
+	width: 48%;
+}
+.access_item_container .rank2{
+	float: left;
+}
+.access_item_container .rank3{
+	float: right;
+}
+
+.access_item_container .access_item .photo{
+	position: relative;
+	margin-bottom: 10px;
+}
+.access_item_container .access_item .access_star{
+	position: absolute;
+	width: 52px;
+	height: 50px;
+	left: 10px;
+	top:10px;
+	text-indent: -9999px;
+	overflow: hidden;
+	z-index: 50;
+}
+.access_item_container .access_item .access_text{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 51;
+	text-align: center;
+	font-weight: bold;
+	background-color: #4c86ab;
+	padding: 10px 0;
+	color: #ffffff;
+	font-size: 16px;
+}
+	.device-mobile .access_item_container .access_item .access_text{
+		font-size: 12px;
+	}
+.access_item_container .access_item .access_text span{
+	color: #fce41b;
+}
+
+.access_item_container .access_item .star1{
+	background-image: url("../img/access/star1.png");
+}
+
+.access_item_container .access_item .star2{
+	background-image: url("../img/access/star2.png");
+}
+.access_item_container .access_item .star3{
+	background-image: url("../img/access/star3.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////
+ÉäÉmÉx
+//////////////////////////////////////// */
+
+.device-mobile .renovation .title .more{
+padding-top: 33px;
+font-size: 11px;
+}
+
+
+
+
+
+
+

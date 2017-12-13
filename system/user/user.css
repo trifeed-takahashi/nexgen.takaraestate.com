@@ -1,0 +1,34 @@
+/* ////////////////////////////////////////
+
+物件一覧
+
+//////////////////////////////////////// */
+
+
+.colum_gazo{
+	width: 8%;
+	height: auto;
+}
+.colum_date{
+	width: 15%;
+}
+.colum_bukken{
+	width: 8%;
+}
+.colum_bango{
+	width: 10%;
+}
+
+.colum_date a{
+	text-decoration: none;
+	color: #4C86AB;
+	border: 1px solid #4C86AB;
+	padding: 3px 5px;
+	border-radius: 2px;
+	display: inline-block;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+
+

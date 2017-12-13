@@ -1,0 +1,51 @@
+/* ////////////////////////////////////////
+
+class CSS
+
+//////////////////////////////////////// */
+
+
+
+/* //////////////////////////////
+
+Util
+
+////////////////////////////// */
+.disp_none{display:none}
+
+
+/* //////////////////////////////
+
+float
+
+////////////////////////////// */
+.fl_left{float:left}
+.fl_right{float:right}
+.fl_none{float:none}
+
+
+/* //////////////////////////////
+
+clearfix
+
+////////////////////////////// */
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+
+.clearbr{clear:both}
+.clear_l{clear:left}
+.clear_r{clear:right}

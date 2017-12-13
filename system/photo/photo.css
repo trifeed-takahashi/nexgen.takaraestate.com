@@ -1,0 +1,123 @@
+/* ////////////////////////////////////////
+
+新規登録
+
+//////////////////////////////////////// */
+
+
+.drag-drop-area{
+	padding: 20px;
+	background-color: #ebebeb;
+	margin-top: 150px;
+}
+.drag-drop-inside{
+	border: 4px dotted #c7c7c7;
+	border-radius: 8px;
+	text-align: center;
+	padding: 50px;
+	height: 150px;
+}
+.drag-drop-info{
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+.drag-drop-area input{
+display: none;
+}
+
+
+.detail_title .drag-drop-inside{
+	height: 150px;
+}
+
+.detail_title_text{
+	float: none;
+}
+
+
+.upload_files{
+	border-bottom: 1px solid #cbcbcb;
+	background-size: 16px;
+}
+
+
+.upload_files .upload_image,
+.upload_files .upload_name{
+	float: left;
+	height: 70px;
+	font-size: 12px;
+	padding-left: 10px;
+	line-height: 70px;
+}
+	.device-mobile .upload_files .upload_name,
+	.device-mobile .upload_files .upload_title{
+	font-size: 10px;
+	}
+
+.upload_files .upload_sousa{
+float: left;
+padding-top: 25px;
+padding-left: 20px;
+height: auto;
+width: 10%;
+min-width: 30px;
+font-size: 12px;
+}
+.upload_files .upload_image{
+width: 20%;
+	max-width: 100px;
+	text-align: center;
+	padding-left: 0px;
+}
+.upload_files .upload_name{
+	height: 65px;
+	padding-top: 5px;
+	width: 60%;
+	min-width: 100px;
+	overflow: hidden;
+}
+#load_file_head .upload_files .upload_name{
+	padding-top: 0;
+}
+	.device-mobile .upload_files .upload_name{
+	width: 55%;
+	}
+.upload_files .upload_name p{
+	font-size: 12px;
+}
+	.device-mobile .upload_files .upload_name p{
+		font-size: 10px;
+	}
+.upload_files .upload_name p .delete_upload{
+	text-decoration: none;
+	color: #ef2929;
+	display: inline;
+}
+
+
+
+.upload_files .upload_image,
+.upload_files .upload_image img{
+	height: 70px;
+}
+
+
+
+
+
+
+#load_file_head{
+	border-top: 1px solid #cbcbcb;
+}
+
+
+.search {
+  width:calc(100% - 250px);
+}
+
+
+
+
+
+

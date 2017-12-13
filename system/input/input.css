@@ -1,0 +1,24 @@
+/* ////////////////////////////////////////
+
+物件一覧
+
+//////////////////////////////////////// */
+.drag-drop-area{
+	padding: 20px;
+	background-color: #ebebeb;
+}
+.drag-drop-inside{
+	border: 4px dotted #c7c7c7;
+	border-radius: 8px;
+	text-align: center;
+	padding: 50px;
+	height: 450px;
+}
+.drag-drop-info{
+	font-size: 40px;
+	padding-top: 200px;
+}
+
+.drag-drop-area input{
+display: none;
+}

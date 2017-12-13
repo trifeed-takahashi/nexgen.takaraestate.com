@@ -1,0 +1,47 @@
+/* ////////////////////////////////////////
+
+setting CSS
+
+//////////////////////////////////////// */
+*{
+	font-family: "Quicksand" ,"Hiragino Kaku Gothic ProN","メイリオ", "ＭＳ Ｐゴシック";
+}
+body{
+-webkit-text-size-adjust: 100%;
+
+}
+
+body,
+div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,td {
+line-height:170%;
+font-size:14px;
+color:#505050;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color:#000000;
+}
+
+h1,h2 {font-size:25px;}
+h3,h4 {font-size:20px;}
+h5,h6 {font-size:16px;}
+
+a{color:#84DE24}
+a:visited{color:#84DE24}
+a:link{color:#84DE24}
+a:active{color:#84DE24}
+a:hover{
+color:#84DE24;
+text-decoration:none;
+}
